@@ -1,0 +1,123 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    }
+.logo {
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.yourcontainer {
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+.yourcontainer img {
+    height : 100%;
+    width :100%;
+    object-fit: contain;
+}
+@font-face {
+    font-family: BrittanySignature;
+    src: url(../fonts/BrittanySignature.ttf);
+}
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: DMSerifDisplay-Regular;
+    src: url(../fonts/DMSerifDisplay-Regular.ttf);
+}
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../images/backpic.jpeg);
+    background-color: #E1D5C2;
+    background-size: cover;
+    background-position: center;
+}
+
+.StoreSleuth {
+    font-family: 'BrittanySignature', sans-serif;
+    font-size: 13vh;
+    font-weight:100;
+    text-align: center;
+    position: absolute;
+    left: 34%;
+    top: 26.5%;
+    transform: translateX(-34%,-26.5%);
+    
+}
+
+.tagline {
+    font-family: 'Quicksand', sans-serif;
+    font-size : 3.2vh;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    left: 40%;
+    top: 51%;
+    transform: translateX(-340%,-51%);
+}
+
+.btnStudent {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    width: 20vh;
+    height: 7vh;
+    background: rgb(255, 255, 255, 0.5);
+    border: 0.2vh solid #000000;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 3vh;
+    color: #000000;
+    font-weight: 500;
+    position: absolute;
+    left: 37.5%;
+    top: 60%;
+    transform: translateX(-37.5%,-60%);
+}
+
+.button {
+    font-size: 16px;
+    margin: 35px 0;
+    padding: 11px 16px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+    display: inline-block;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.btnStoreOwner {
+    font-family: 'Quicksand', sans-serif;
+    width: 20vh;
+    height: 7vh;
+    background: rgb(255, 255, 255, 0.5);
+    border: 0.2vh solid #000000;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 3vh;
+    color: #000000;
+    font-weight: 500;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%,-60%);
+    }

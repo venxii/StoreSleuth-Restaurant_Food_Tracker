@@ -1,0 +1,132 @@
+body {
+    background-image: url(../images/backimg2.jpeg);
+    background-color: #E1D5C2;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+.yourcontainer {
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+.yourcontainer img {
+    height : 100%;
+    width :100%;
+    object-fit: contain;
+}
+@font-face {
+    font-family: BrittanySignature;
+    src: url(../fonts/BrittanySignature.ttf);
+}
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: DMSerifDisplay-Regular;
+    src: url(../fonts/DMSerifDisplay-Regular.ttf);
+}
+.section{
+    padding-top: 100px;
+    padding-bottom: 112px;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.container{
+    margin-right: 77.5px;
+    margin-left: 77.5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    background: transparent;
+}
+.text{
+    margin-top: 0;
+    font-family: Quicksand;
+    text-align: center;
+    font-size: 28px;
+    width: 330px;
+}
+.login-wrap {
+    position: relative;
+    color: #55523Ae6;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+.form-control:hover {
+    background: transparent;
+    border : 1px solid #000;
+  }
+.form-control {
+    border: 1px transparent;
+    height: 50px;
+    color: rgb(0, 0, 0) !important;
+    background: rgba(85, 82, 58, 0.1);
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left !important;
+    text-indent: 13px;
+    line-height: 1.5;
+    appearance: auto;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    white-space: pre;
+    padding-block: 1px;
+    padding-inline: 6px;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn.btn-primary {
+    background: #55523Ae6 !important;
+    border: 1px solid #55523Ae6 !important;
+    color: #ffffff !important;
+    text-align: center !important;
+}
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+    cursor: pointer;
+}
+.btn {
+    cursor: pointer;
+    border-radius: 40px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.myflex{
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+}
+.w-50 {
+    width: 50% !important;
+}
+.text-md-right {
+    text-align: right !important;
+    top: 600px;
+    left: 300px;
+}

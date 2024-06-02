@@ -1,0 +1,234 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 60px 400px;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container1 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+  }
+
+.card {
+    width: 1150px;
+    height:390px;
+    margin:auto;
+    border-radius: 20px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+
+.cardsmall {
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    width:250px;
+    height:270px;
+    margin: auto;
+    padding:15px;
+}
+
+.foodimage {
+    border-radius: 20px;
+    width:180px;
+    height:180px;
+    margin: auto;
+    padding:10px;
+}
+
+.fooddetails {
+    width:180px;
+    font-family: Quicksand;
+    font-size: 20px;
+    margin:auto;
+    text-align: center;
+    padding : 10px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:300px;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-container2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 0px 0;
+    font-size: 30px;
+}
+
+.item4 {
+        grid-column-end: span 3;
+        position: relative;
+        text-align: center;
+}
+    
+.item5 {
+        grid-column-end: span 3;
+}
+
+.translucentgc1 {
+    left: auto;
+    width: 1350px;
+    height: 450px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+
+.search-box {
+	font-size: 3vh;
+	border: solid 0.2em #000;
+	display: inline-block;
+	position: relative;
+    align-content: center;
+	border-radius: 2.5em;
+}
+ .search-box input[type="text"] {
+	 font-family: Quicksand, sans-serif;
+	 font-weight: 500;
+	 width: 2.5em;
+	 height: 2.5em;
+	 padding: 0.3em 2.1em 0.3em 0.4em;
+	 border: none;
+	 box-sizing: border-box;
+	 border-radius: 2.5em;
+	 transition: width 800ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 150ms;
+}
+ .search-box input[type="text"]:focus {
+	 outline: none;
+}
+ .search-box input[type="text"]:focus, .search-box input[type="text"]:not(:placeholder-shown) {
+	 width: 18em;
+	 transition: width 800ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+ .search-box input[type="text"]:focus + button[type="reset"], .search-box input[type="text"]:not(:placeholder-shown) + button[type="reset"] {
+	 transform: rotate(-45deg) translateY(0);
+	 transition: transform 150ms ease-out 800ms;
+}
+ .search-box input[type="text"]:focus + button[type="reset"]:after, .search-box input[type="text"]:not(:placeholder-shown) + button[type="reset"]:after {
+	 opacity: 1;
+	 transition: top 150ms ease-out 950ms, right 150ms ease-out 950ms, opacity 150ms ease 950ms;
+}
+ .search-box button[type="reset"] {
+	 background-color: transparent;
+	 width: 1.4em;
+	 height: 1.4em;
+	 border: 0;
+	 padding: 0;
+	 outline: 0;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 position: absolute;
+	 top: 0.55em;
+	 right: 0.55em;
+	 transform: rotate(-45deg) translateY(2.2em);
+	 transition: transform 150ms ease-out 150ms;
+}
+ .search-box button[type="reset"]:before, .search-box button[type="reset"]:after {
+	 content: "";
+	 background-color: #000000;
+	 width: 0.3em;
+	 height: 1.4em;
+	 position: absolute;
+}
+ .search-box button[type="reset"]:after {
+	 transform: rotate(90deg);
+	 opacity: 0;
+	 transition: transform 150ms ease-out, opacity 150ms ease-out;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    padding:10px;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+img {
+    border-radius: 20px;
+  }
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 10 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

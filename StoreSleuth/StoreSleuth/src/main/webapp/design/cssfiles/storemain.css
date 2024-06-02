@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@charset "UTF-8";
+body {
+    background-image: url(images/backimg3.jpeg);
+    background-color: #E1D5C2;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+@font-face {
+    font-family: BrittanySignature;
+    src: url(../fonts/BrittanySignature.ttf);
+}
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: DMSerifDisplay-Regular;
+    src: url(../fonts/DMSerifDisplay-Regular.ttf);
+}
+.maxcontainer{
+    background-image: url(../images/largeimg2.jpg);
+    width:1470px;
+    height:743px;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    margin:-7px;
+
+}
+.yourcontainer {
+	justify-content: right;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+.yourcontainer img {
+    height : 100%;
+    width :100%;
+    object-fit: contain;
+}
+.card1{
+    font-family: DMSerifDisplay-Regular;
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 130px;
+}
+.card2{
+    font-family: BrittanySignature;
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.card3{
+    font-family: DMSerifDisplay-Regular;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.btn{
+    font-family: Quicksand;
+    text-align: center;
+    background-color: #BFBF83;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    font-size: 20px;
+    width:314px;
+    height:44px;
+}
+.btn:hover{
+    background-color: #BFBF8380;
+    border: 1px solid rgb(0, 0, 0);
+}
+.btncontainer{
+    display: flex;
+    justify-content: center !important;
+    padding-bottom:10px;
+}
+.cardsmall {
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    width:200px;
+    height:275px;
+    margin: auto;
+    padding:5px;
+    border: 2px solid black;
+}
+
+.foodimage {
+    max-width: 200px;
+    border-radius: 20px;
+    width:180px;
+    height:180px;
+    margin: auto;
+    padding:10px;
+}
+
+.foodname{
+    background: transparent;
+    font-size: 14px;
+    font-weight: 500 !important; 
+}
+
+.foodprice{
+  background: transparent;
+}
+
+.foodavail{
+  background: transparent;
+}
+
+.fooddetails {
+    background-color: #fff;
+    opacity: 0.5;
+    border-radius: 20px;
+    width:180px;
+    height:62px;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 15px;
+    margin:auto;
+    text-align: left;
+    text-indent: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 2px;
+}
+.card32{
+    font-family: DMSerifDisplay-Regular;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.td {
+  padding: 15px;
+}
