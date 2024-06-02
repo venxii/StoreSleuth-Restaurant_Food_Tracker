@@ -1,1 +1,1 @@
-# StoreSleuth-Restaurant_Food_Tracker
+# StoreSleuth-Restaurant Food Tracker
