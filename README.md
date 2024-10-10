@@ -1,4 +1,4 @@
-# StoreSleuth-Restaurant Food Tracker
+# StoreSleuth : Restaurant Food Tracker
 The basic idea of this web application is to be able to manage and track various items found across the stores and stalls of VIT-AP Campus. 
 
 It has been noticed that various stores and stalls in the campus happen to sell the same item and at times the costs vary and at other times some of these products are not available to the students. This web application aims to optimize this process and provides the following features : 
